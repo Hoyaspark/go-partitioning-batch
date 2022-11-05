@@ -1,8 +1,8 @@
 package worker
 
 import (
-	"go-partitioning-batch/worker/parallel"
-	"go-partitioning-batch/worker/step"
+	"github.com/Hoyaspark/go-partitioning-batch/worker/parallel"
+	"github.com/Hoyaspark/go-partitioning-batch/worker/step"
 )
 
 type Worker interface {

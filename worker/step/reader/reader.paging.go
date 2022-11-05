@@ -3,11 +3,11 @@ package reader
 import (
 	"context"
 	"fmt"
+	"github.com/Hoyaspark/go-partitioning-batch/pkg/er"
+	"github.com/Hoyaspark/go-partitioning-batch/worker/parallel"
+	"github.com/Hoyaspark/go-partitioning-batch/worker/step"
 	"github.com/jmoiron/sqlx"
 	"github.com/rs/zerolog/log"
-	"go-partitioning-batch/pkg/er"
-	"go-partitioning-batch/worker/parallel"
-	"go-partitioning-batch/worker/step"
 )
 
 type pagingDocReader[T step.DocProcessor[R, J], R any, J step.ProcessorParam[J]] struct {

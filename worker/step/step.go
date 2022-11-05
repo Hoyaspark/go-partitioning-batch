@@ -2,9 +2,9 @@ package step
 
 import (
 	"context"
-	"go-partitioning-batch/pkg/er"
-	"go-partitioning-batch/worker/monitoring"
-	"go-partitioning-batch/worker/parallel"
+	"github.com/Hoyaspark/go-partitioning-batch/pkg/er"
+	"github.com/Hoyaspark/go-partitioning-batch/worker/monitoring"
+	"github.com/Hoyaspark/go-partitioning-batch/worker/parallel"
 	"sync/atomic"
 )
 

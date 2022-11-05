@@ -1,13 +1,13 @@
 package writer
 
 import (
-	"errors"
+	"github.com/Hoyaspark/go-partitioning-batch/pkg/er"
+	"github.com/Hoyaspark/go-partitioning-batch/util"
+	"github.com/Hoyaspark/go-partitioning-batch/worker/parallel"
+	"github.com/Hoyaspark/go-partitioning-batch/worker/step"
 	"github.com/fatih/structs"
 	"github.com/jmoiron/sqlx"
-	"go-partitioning-batch/pkg/er"
-	"go-partitioning-batch/util"
-	"go-partitioning-batch/worker/parallel"
-	"go-partitioning-batch/worker/step"
+	"github.com/pkg/errors"
 	"time"
 )
 

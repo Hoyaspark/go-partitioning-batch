@@ -1,8 +1,8 @@
 package parallel
 
 import (
+	"github.com/Hoyaspark/go-partitioning-batch/pkg/er"
 	"github.com/rs/zerolog/log"
-	"go-partitioning-batch/pkg/er"
 	"strconv"
 )
 

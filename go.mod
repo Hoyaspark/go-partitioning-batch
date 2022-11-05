@@ -1,4 +1,4 @@
-module go-partitioning-batch
+module github.com/Hoyaspark/go-partitioning-batch
 
 go 1.19
 

@@ -2,9 +2,9 @@ package step
 
 import (
 	"context"
+	"github.com/Hoyaspark/go-partitioning-batch/worker/monitoring"
+	"github.com/Hoyaspark/go-partitioning-batch/worker/parallel"
 	"github.com/jmoiron/sqlx"
-	"go-partitioning-batch/worker/monitoring"
-	"go-partitioning-batch/worker/parallel"
 )
 
 type WriterStorage[K any] interface {

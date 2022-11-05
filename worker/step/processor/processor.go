@@ -1,9 +1,9 @@
 package processor
 
 import (
-	"go-partitioning-batch/pkg/er"
-	"go-partitioning-batch/worker/parallel"
-	"go-partitioning-batch/worker/step"
+	"github.com/Hoyaspark/go-partitioning-batch/pkg/er"
+	"github.com/Hoyaspark/go-partitioning-batch/worker/parallel"
+	"github.com/Hoyaspark/go-partitioning-batch/worker/step"
 )
 
 type processor[T step.DocProcessor[R, J], R any, J step.ProcessorParam[J]] struct {
