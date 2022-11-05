@@ -1,5 +1,8 @@
 # Go Partitioning Batch
 
+## Flow Chart
+![](.github/img.png)
+
 ## Interface
 **ParallelDB**
 
